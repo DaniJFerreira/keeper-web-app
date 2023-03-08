@@ -1,0 +1,224 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background: #eee;
+  padding: 0 16px;
+}
+
+
+
+title{
+  background-color: #1e1e3a;
+  color: transparent;
+  text-shadow: 1px 1px 2px rgba(246, 247, 248, 0.623);
+  -webkit-background-clip: text;
+     -moz-background-clip: text;
+          background-clip: text;
+  margin: 20px;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+header {
+  position: absolute;
+  display: flex;
+  background-color: #f5ba13;
+  margin: auto -16px;
+  padding: 16px 32px;
+  -webkit-box-shadow: 0px -1px 12px 1px #505050; 
+  box-shadow: 0px -1px 12px 1px #505050;
+  width: 55%;
+  z-index: 99;
+}
+
+.layer01{
+  position: relative;
+  display: flex;
+  background-color: #16FF00;
+  -webkit-box-shadow: 0px -1px 12px 1px #505050; 
+  box-shadow: 0px -1px 12px 1px #505050;
+  width: 70%;
+  height: 80px;
+  margin: 0px -30px;
+  margin-bottom: 100px;
+
+}
+.layer02{
+  position: absolute;
+  display: flex;
+  background-color: #FB2576;
+  -webkit-box-shadow: 0px -1px 12px 1px #505050; 
+  box-shadow: 0px -1px 12px 1px #505050;
+  width: 80%;
+  height: 83px;
+  margin: 0px -30px;
+}
+.layer03{
+  position: absolute;
+  display: flex;
+  background-color: #FDFF00;
+  -webkit-box-shadow: 0px -1px 12px 1px #505050; 
+  box-shadow: 0px -1px 12px 1px #505050;
+  width: 90%;
+  height: 86px;
+  margin: 0px -30px;
+}
+.layer04{
+  position: absolute;
+  display: flex;
+  background-color: #31E1F7;
+  -webkit-box-shadow: 0px -1px 12px 1px #505050; 
+  box-shadow: 0px -1px 12px 1px #505050;
+  width: 100%;
+  height: 89px;
+  margin: 0px -30px 0px 0px;
+}
+
+header h1 {
+  font-family: "McLaren", cursive;
+  font-weight: bold;
+  background-color: #1e1e3a;
+  color: transparent;
+  text-shadow: 1px 1px 2px rgba(244, 223, 147, 0.821);
+  -webkit-background-clip: text;
+     -moz-background-clip: text;
+          background-clip: text;
+}
+
+footer {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+footer p {
+  color: #ccc;
+}
+.note {
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  width: 240px;
+  margin: 16px;
+  float: left;
+}
+.note h2 {
+  font-size: 1.5em;
+  margin-bottom: 6px;
+}
+
+.note h1 {
+  font-family: "McLaren", cursive;
+  font-weight: 900;
+  font-size: 2rem;
+  background-color: #1e1e3a;
+  color: transparent;
+  text-shadow: 1px 1px 2px rgba(244, 223, 147, 0.821);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+   background-clip: text;
+   margin-top: -7px;
+}
+.note p {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.note button {
+  padding: 5px auto;
+  margin-left: 180px;
+  text-align: center;
+  background: #f5ba13;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  outline: none;
+}
+
+form {
+  position: relative;
+  width: 480px;
+  margin: 30px auto 20px auto;
+  background: #fff;
+  padding: 15px;
+  border-radius: 7px;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+}
+form input,
+form textarea {
+  width: 100%;
+  border: none;
+  padding: 4px;
+  outline: none;
+  font-size: 1.2em;
+  font-family: inherit;
+  resize: none;
+}
+form button {
+  position: absolute;
+  right: 18px;
+  bottom: -18px;
+  padding: 5px auto;
+  text-align: center;
+  background: #f5ba13;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  outline: none;
+}
+
+form button h1{
+  font-family: "McLaren", cursive;
+  font-weight: 900;
+  font-size: 2.5rem;
+  background-color: #1e1e3a;
+  color: transparent;
+  text-shadow: 1px 1px 2px rgba(244, 223, 147, 0.821);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+   background-clip: text;
+   margin: -10px;
+}
+
+
+@media (width: 500px){
+
+  header {
+    width: 300px;
+  }
+  
+  .layer01{
+    width: 350px;
+  
+  }
+  .layer02{
+    width: 400px;
+
+  }
+  .layer03{
+    width: 450px;
+  }
+  .layer04{
+    width: 500px;
+  }
+}
