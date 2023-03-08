@@ -5,7 +5,6 @@ function Note(props) {
     props.onDelete(props.id);
   }
 
-
   return (
     <div className="note">
       <h2>{props.title}</h2>
