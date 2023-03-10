@@ -98,9 +98,12 @@ footer {
   height: 2.5rem;
 }
 
-footer p {
+footer p a{
   color: #ccc;
+  text-decoration: none;
 }
+
+
 .note {
   background: #fff;
   border-radius: 7px;
