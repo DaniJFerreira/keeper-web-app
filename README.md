@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+# Keeper Web App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+Is the application that dynamically generates and display a notes from user input.
+- The project was created to practice and improve my skills using react.js, route and gh-pages.
+- As a result, I have learned how to create an react app, how to install npm modules, how implement react state and effects hooks.  
 
-In the project directory, you can run:
+## Table of Contents
 
-### `npm start`
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Installation 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Clone the GitHub repository into your directory and execute the command line in your git terminal in order to install and run the web app:
 
-### `npm test`
+```bash
+npm start
+```
+To run the aplication is necessary to add, commit and push the files into your repository on gitHub. Use the following command on your terminal to deploy the pages
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+npm run deploy
+```
 
-### `npm run build`
+## Features
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+[![badge](https://img.shields.io/badge/React-blue)][1]
+[![badge](https://img.shields.io/badge/node.js-yellowgreen)][2]
+[![badge](https://img.shields.io/badge/npm-yellow)][3]
+[![badge](https://img.shields.io/badge/html-orange)][4]
+[![badge](https://img.shields.io/badge/css-blue)][5]
+[![badge](https://img.shields.io/badge/bootstrap-blueviolet)][6]
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+[1]: https://reactjs.org/docs/getting-started.html
+[2]: https://nodejs.org/en/
+[3]: https://www.npmjs.com/
+[4]: https://www.w3schools.com/html
+[5]: https://www.w3schools.com/css
+[6]: https://getbootstrap.com 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Usage
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+The project start with a very intuive and visual UI easy to use.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![kepper](https://user-images.githubusercontent.com/111529943/224271317-38d8dbcf-6e4b-4ce5-a58c-76a59ab20482.png)
+   
+## License
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![badge](https://img.shields.io/badge/license-MIT-brightgreen)
