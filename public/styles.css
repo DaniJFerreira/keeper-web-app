@@ -206,22 +206,22 @@ form.create-note button {
 @media (max-width: 500px){
 
   header {
-    width: 200px;
+    width: 150px;
   }
   
   .layer01{
-    width: 250px;
+    width: 200px;
   
   }
   .layer02{
-    width: 300px;
+    width: 50px;
 
   }
   .layer03{
-    width: 350px;
+    width: 300px;
   }
   .layer04{
-    width: 400px;
+    width: 350px;
   }
 
   form {
