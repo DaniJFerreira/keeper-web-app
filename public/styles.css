@@ -203,7 +203,7 @@ form.create-note button {
 
 
 
-@media (width: 500px){
+@media (max-width: 500px){
 
   header {
     width: 300px;
