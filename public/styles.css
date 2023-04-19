@@ -225,7 +225,7 @@ form.create-note button {
   }
 
   form {
-    width: 400px;
+    width: auto;
    
   }
 }
