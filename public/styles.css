@@ -3,12 +3,14 @@
   margin: 0;
   box-sizing: border-box;
 }
+
 html {
   font-family: "Montserrat", sans-serif;
 }
+
 body {
   background: #eee;
-  padding: 0 16px;
+  padding: 0px;
 }
 
 title{
@@ -32,7 +34,7 @@ header {
   padding: 16px 32px;
   -webkit-box-shadow: 0px -1px 12px 1px #505050; 
   box-shadow: 0px -1px 12px 1px #505050;
-  width: 55%;
+  width: 50%;
   z-index: 99;
 }
 
@@ -42,12 +44,13 @@ header {
   background-color: #16FF00;
   -webkit-box-shadow: 0px -1px 12px 1px #505050; 
   box-shadow: 0px -1px 12px 1px #505050;
-  width: 70%;
+  width: 68%;
   height: 80px;
   margin: 0px -30px;
   margin-bottom: 100px;
 
 }
+
 .layer02{
   position: absolute;
   display: flex;
@@ -58,13 +61,14 @@ header {
   height: 83px;
   margin: 0px -30px;
 }
+
 .layer03{
   position: absolute;
   display: flex;
   background-color: #FDFF00;
   -webkit-box-shadow: 0px -1px 12px 1px #505050; 
   box-shadow: 0px -1px 12px 1px #505050;
-  width: 90%;
+  width: 92%;
   height: 86px;
   margin: 0px -30px;
 }
@@ -76,7 +80,7 @@ header {
   box-shadow: 0px -1px 12px 1px #505050;
   width: 100%;
   height: 89px;
-  margin: 0px -30px 0px 0px;
+  margin: 0px -50px 0px 0px;
 }
 
 header h1 {
@@ -89,20 +93,6 @@ header h1 {
      -moz-background-clip: text;
           background-clip: text;
 }
-
-footer {
-  position: absolute;
-  text-align: center;
-  bottom: 0;
-  width: 100%;
-}
-
-footer p a{
-  color: #ccc;
-  text-decoration: none;
-  font-weight: bold;
-}
-
 
 .note {
   background: #fff;
@@ -172,6 +162,7 @@ form textarea {
   font-family: inherit;
   resize: none;
 }
+
 .note button {
   position: relative;
   float: right;
@@ -200,9 +191,37 @@ form.create-note button {
   outline: none;
 }
 
+footer {
+  position: fixed;
+  background: #eee;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  margin-top: 20px;
+}
 
+footer p a{
+  color: #ccc;
+  text-decoration: none;
+  font-weight: bold;
+}
 
 @media (max-width: 500px){
+
+ form{
+  width: auto;
+  margin: 30px 16px 20px 16px;
+ }
+
+ .note {
+  width: 90%;
+  margin: 20px 18px;
+}
+}
+
+/* 
+
+@media (max-width: 390px){
 
   header {
     width: 150px;
@@ -210,21 +229,21 @@ form.create-note button {
   
   .layer01{
     width: 200px;
-  
   }
+
   .layer02{
     width: 250px;
-
   }
+
   .layer03{
     width: 300px;
   }
+
   .layer04{
     width: 350px;
   }
 
   form {
     width: auto;
-   
   }
-}
+} */
