@@ -219,31 +219,3 @@ footer p a{
 }
 }
 
-/* 
-
-@media (max-width: 390px){
-
-  header {
-    width: 150px;
-  }
-  
-  .layer01{
-    width: 200px;
-  }
-
-  .layer02{
-    width: 250px;
-  }
-
-  .layer03{
-    width: 300px;
-  }
-
-  .layer04{
-    width: 350px;
-  }
-
-  form {
-    width: auto;
-  }
-} */
